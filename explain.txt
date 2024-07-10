@@ -1,0 +1,59 @@
+npm router dom
+    components
+    .BrouserRouter=== to enable routing--- import {BrouserRouter} from ,react-router-dom,
+    .Routes ---- import {Routes, Route} from 'react-router-dom'
+    .Route
+    .Link
+
+    HOOKS
+    .useNavigate()
+    .useParams()
+
+#Client Server Connection
+    react<----AXIOS---->server <-----> database
+         we use API 
+         we use library called AXIOS-----> use for https server comunication---use to make communication btn client and server async
+
+        pageloading ---- mounting satge---->useEffect() ---->(hooks)---runs when component mounting or when the page is loading and when component is updating
+        it also runs at the time of unmounting
+        useEffect() runs when there is side useEffect(which are 3 as disscussed above)
+        import {useEffect} from 'react'
+        [] --. useefect only runs once
+
+        js code ---> jsx code----> useeffect (async in nautre)---when we are working with database we use async elements
+
+        useEffect(()=>{},[])
+        always use http// before the API
+
+        CORS ---> crosss origin resource sheild
+
+        when the port are diffrent we use CORS
+            npm i cors
+
+        useRef()---- gives element refrence---its a hook ---works like getelementbyid
+
+        useNavigate()====to navigate from one page to another page -- on navigation single page app approach is follow
+
+        #filteration operation
+            useParams()
+                is used to get dynamic url data
+                
+        #reduce method
+            reduce(previosValue,currentValue)
+
+
+        #login
+            create google api client id
+
+
+
+
+
+
+
+
+
+
+
+
+
