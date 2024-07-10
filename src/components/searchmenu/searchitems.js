@@ -31,7 +31,7 @@ import Searchhead from './searchhead';
             <Searchhead color='bg-danger'/>
         <div className="col-12">
             <div className="container-lg ">
-            <p className="fw-bold h2 p-4">Breakfast Places in Mumbai</p>
+            <p className="fw-bold h2 p-4">Breakfast Places in Delhi</p>
             <div className="row">
 
                 <div className="col-lg-3 col-md-4 col-12 border border-1 p-4 me-lg-4 me-md-2 ">
